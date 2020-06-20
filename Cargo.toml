@@ -7,12 +7,9 @@ license = "MIT"
 readme = "README.md"
 repository = "https://github.com/ian-h-chamberlain/assert_that"
 homepage = "https://github.com/ian-h-chamberlain/assert_that"
-
-# TODO: finalize some metadata
-# keywords = ["predicate", "boolean", "combinatorial", "match", "logic"]
-# documentation = "https://docs.rs/assert_that"
-# categories = ["data-structures", "rust-patterns"]
-
+keywords = ["predicate", "boolean", "combinatorial", "match", "logic"]
+documentation = "https://docs.rs/assert_that"
+categories = ["data-structures", "rust-patterns"]
 description = """
 Helper macros for use with boolean-valued predicate functions.
 """

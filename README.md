@@ -13,7 +13,6 @@ extern crate assert_that;
 use assert_that::assert_that;
 
 assert_that!("Hello World", str::similar("Hello World"));
-assert_that!(3, eq(2 + 1));
 ```
 
 Note that `predicate::*` functions from `predicates::prelude` are brought into
