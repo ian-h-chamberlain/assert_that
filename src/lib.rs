@@ -1,10 +1,11 @@
-//! Helper utilities for working with boolean predicates, inspired by
-//! [Google ]
+//! Helper utilities for working with [`predicates`](https://docs.rs/predicates),
+//! inspired in part by
+//! [Google Mock matchers](https://github.com/google/googletest/blob/master/googlemock/docs/cheat_sheet.md#matchers-matcherlist).
 
 pub use predicates;
 pub use predicates_tree;
 
-/// Simple macro to make assertions with a better error message.
+/// Make predicate-based assertions with a better error message.
 ///
 /// # Examples
 ///

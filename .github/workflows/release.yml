@@ -11,7 +11,8 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - name: Checkout branch
+        uses: actions/checkout@v1
       - name: Login to crates.io
         run: cargo login ${CRATES_IO_TOKEN}
         env:
