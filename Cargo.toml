@@ -17,3 +17,6 @@ Helper macros for use with boolean-valued predicate functions.
 [dependencies]
 predicates = "1.0"
 predicates-tree = "1.0"
+
+[dev-dependencies]
+trybuild = "1.0"

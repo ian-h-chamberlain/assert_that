@@ -1,0 +1,12 @@
+error[E0425]: cannot find function `always` in this scope
+ --> $DIR/leak_prelude.rs:8:13
+  |
+8 |     assert!(always());
+  |             ^^^^^^ not found in this scope
+  |
+help: possible candidates are found in other modules, you can import them into scope
+  |
+3 | use predicates::constant::always;
+  |
+3 | use predicates::prelude::predicate::always;
+  |
