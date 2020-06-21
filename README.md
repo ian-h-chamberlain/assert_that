@@ -1,22 +1,15 @@
 # assert_that
 
-Helper macro for use with [`predicates`](https://crates.io/crates/predicates).
-This macro prints more detailed output on failure compared to `assert!`, using
-output from [`predicates-tree`](https://crates.io/crates/predicates-tree).
+[![Build Status](https://img.shields.io/github/workflow/status/ian-h-chamberlain/assert_that/assert_that?label=Build%20Status)](https://github.com/ian-h-chamberlain/assert_that/actions)
+[![Documentation](https://img.shields.io/badge/docs-master-blue.svg)](https://docs.rs/assert_that)
+![License](https://img.shields.io/crates/l/assert_that.svg)
+
+Helpers for use with [`predicates`](https://crates.io/crates/predicates).
+This crate's core macro prints more detailed output on failure compared to
+`assert!`, using output from [`predicates-tree`](https://crates.io/crates/predicates-tree).
+
+Inspired in part by [Google Mock matchers](https://github.com/google/googletest/blob/master/googlemock/docs/cheat_sheet.md#matchers-matcherlist).
 
 ## Usage
 
-### Example
-
-```rust
-extern crate assert_that;
-use assert_that::assert_that;
-
-assert_that!("Hello World", str::similar("Hello World"));
-```
-
-Note that `predicate::*` functions from `predicates::prelude` are brought into
-scope automatically when used within the macro invocation. See
-`predicates` [documentation](https://docs.rs/predicates) for more details.
-
-See [this crate's documentation](https://docs.rs/assert_that) for more detailed examples.
+See [this crate's documentation](https://docs.rs/assert_that) for examples.
