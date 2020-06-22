@@ -1,8 +1,9 @@
 # assert_that
 
+[![Cargo Crate](https://img.shields.io/crates/v/assert_that)](https://crates.io/crates/assert_that)
 [![Build Status](https://img.shields.io/github/workflow/status/ian-h-chamberlain/assert_that/ci?label=Build%20Status)](https://github.com/ian-h-chamberlain/assert_that/actions)
 [![Documentation](https://img.shields.io/badge/docs-master-blue.svg)](https://docs.rs/assert_that)
-![License](https://img.shields.io/crates/l/assert_that.svg)
+[![License](https://img.shields.io/crates/l/assert_that.svg)](LICENSE)
 
 Helpers for use with [`predicates`](https://crates.io/crates/predicates).
 This crate's core macro prints more detailed output on failure than
